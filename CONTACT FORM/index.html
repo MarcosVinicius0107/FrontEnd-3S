@@ -67,9 +67,9 @@
                     <label class="form-contact__label" for="nome">Endereço</label>
                 </div>
                 <div class="form-contact__col-b">
-                    <input class="form-contact__input form-contact__input--quarto" type="text" placeholder="cep: 9999-999" id="cep" name="cep">
+                    <input class="form-contact__input form-contact__input--quarto" type="number" placeholder="cep: 9999-999" id="cep" name="cep" maxlength="8" onblur="buscarEndereco(this.value)">
                     <input class="form-contact__input form-contact__input--metade" type="text" placeholder="Rua Lá de Casa" id="rua" name="rua">
-                    <input class="form-contact__input form-contact__input--quarto" type="text" placeholder="ex: 555" id="numero" name="numero">
+                    <input class="form-contact__input form-contact__input--quarto" type="number" placeholder="ex: 555" id="numero" name="numero">
                 </div>
 
             </div>
@@ -110,7 +110,7 @@
             </div>
 
             <div class="form-contact__input--btn">
-                <button onclick="validarFormulario()" class="bt12">Cadastar</button>
+                <button onclick="validarFormulario()" type="button" class="bt12">Cadastar</button>
                 <button class="bt12">Limpar</button>
             </div>
         </form>
