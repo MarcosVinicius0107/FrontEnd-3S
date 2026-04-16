@@ -15,6 +15,8 @@ function validarFormulario()
     let bairro = document.getElementById("bairro").value;
     let cidade = document.getElementById("cidade").value;
     let estado = document.getElementById("estado").value;
+    let anotação = document.getElementById("anotação").value;
+
 
     if (nome.trim().length == 0) {
         formError("nome");
@@ -105,6 +107,13 @@ function validarFormulario()
         quantidadesErros++;
     } else {
         ReiniciaBordas("estado");
+    }
+/************************************************************/ 
+    if (anotação.trim().length == 0) {
+        formError("anotação");
+        quantidadesErros++;
+    } else {
+        ReiniciaBordas("anotação");
     }
 /************************************************************/ 
     if (quantidadesErros > 0)
