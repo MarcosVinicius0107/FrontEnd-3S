@@ -56,5 +56,63 @@
   ],
   "fruta": [],
   "jogos": [],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "9CIQdogtOKY"
+    },
+    {
+      "nome": "Gustavinho",
+      "altura": 1.63,
+      "peso": 55,
+      "IMC": "20.70",
+      "situacao": "Saudável",
+      "id": "DYI17jqSekI"
+    },
+    {
+      "nome": "Marcos",
+      "altura": 1.64,
+      "peso": 62,
+      "IMC": "23.05",
+      "situacao": "Saudável",
+      "id": "ZLZ_oxk5_q8"
+    },
+    {
+      "nome": "Marcão",
+      "altura": 1.72,
+      "peso": 78,
+      "IMC": "26.37",
+      "situacao": "Sobrepeso",
+      "id": "KArgjZ99pLs"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": "30.48",
+      "situacao": "Obesidade Grau I",
+      "id": "RRd3gKy44vs"
+    },
+    {
+      "nome": "Ana Julia",
+      "altura": 1.5,
+      "peso": 20,
+      "IMC": "8.89",
+      "situacao": "Magreza grave",
+      "id": "3SVLJ2ghQVg"
+    },
+    {
+      "nome": "francisco",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": "30.48",
+      "situacao": "Obesidade Grau I",
+      "id": "-kIANmV15cE"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
