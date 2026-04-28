@@ -114,5 +114,56 @@
       "id": "-kIANmV15cE"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 40,
+      "n2": 20,
+      "op": "soma",
+      "resultado": "60.00",
+      "id": "8-R6u5vWwB4"
+    },
+    {
+      "n1": 51,
+      "n2": 2,
+      "op": "divisao",
+      "resultado": "25.50",
+      "id": "8zuiS0Qumsw"
+    },
+    {
+      "n1": 5,
+      "n2": 2,
+      "op": "subtracao",
+      "resultado": "3.00",
+      "id": "rchk904HEzU"
+    },
+    {
+      "n1": 532,
+      "n2": null,
+      "op": "multiplicacao",
+      "resultado": "NaN",
+      "id": "UDWSbJcAntw"
+    },
+    {
+      "n1": 500,
+      "n2": 2,
+      "op": "divisao",
+      "resultado": "250.00",
+      "id": "D50XfWfCXRw"
+    },
+    {
+      "n1": 32,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "64.00",
+      "id": "9fVDvO5VWoU"
+    },
+    {
+      "n1": 2,
+      "n2": 2,
+      "op": "soma",
+      "resultado": "4.00",
+      "id": "GV_MUxEAD9A"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
